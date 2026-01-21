@@ -37,11 +37,11 @@ jobs:
           ls -la
 
       - name: Upload coverage data
-        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: coverage-data
           path: .coverage
+          include-hidden-files: true
           retention-days: 1
 
   coverage_report:
