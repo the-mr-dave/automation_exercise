@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: SSE CI/CD
 on: [push]
 jobs:
   style-check:
