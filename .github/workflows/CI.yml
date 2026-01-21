@@ -28,7 +28,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -e .
+          pip install matplotlib numpy 
           pip install pytest coverage
 
       - name: Run tests with coverage
